@@ -333,6 +333,9 @@ mise en plan TechDraw via FreeCAD ; page `Artifact` des rendus. (Fait : la maiso
   - Compter les agents actifs avant chaque lancement ; les agents de vérification comptent dans
     ces 5. Règle d'avant, pour mémoire (2026-09-28 : « Il faudrait pas plus de 7 ») : avec 9 agents, le poste (4 fils)
     peinait déjà.
+  - 2026-10-10 au soir, pendant qu'une AUTRE session travaillait sur le poste, 5 agents lancés d'un coup : « il a trop
+    d'agents IA du même coup.. pas plus de 3-4 ». Retenir 3 à 4 quand une autre session tourne (lui demander si c'est
+    la nouvelle règle générale).
 
 ## Chaîne de production (workflow demandé par Sylvain le 2026-09-23)
 
