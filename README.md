@@ -1,4 +1,4 @@
-# Render
+# 3D Plan
 
 **De la photo ou du plan PDF au modèle 3D, aux rendus, à la photo hyperréaliste et aux plans AutoCAD
 cotés (DWG et PDF) — Blender 5.2 piloté par Claude Code, en français, pour la construction au Québec.**
@@ -93,7 +93,7 @@ professionnel**. Aucun sceau n'est jamais simulé.
 ```
 1. Installer les programmes du tableau ci-dessus (Blender, Python, ODA File Converter, Git, Claude Code).
 2. Télécharger ce dépôt (bouton « Code » puis « Download ZIP », ou git clone) dans un chemin COURT,
-   par exemple C:\Dev\Render : Blender refuse les chemins longs.
+   par exemple C:\Dev\3d_Plan : Blender refuse les chemins longs.
 3. Dans ce dossier :  python -m pip install -r requirements.txt
 4. Double-cliquer Demarrer-Blender.bat
 ```
