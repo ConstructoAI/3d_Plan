@@ -55,6 +55,7 @@ professionnel**. Aucun sceau n'est jamais simulé.
 
 | Chemin | Rôle |
 |---|---|
+| `Installer.bat` | **À double-cliquer une fois** : installe ce qui manque sur le poste, puis lance le diagnostic. |
 | `Demarrer-Blender.bat` | **Le fichier à double-cliquer** : vérifie le poste, affiche le menu, ouvre la session. |
 | `CLAUDE.md` | Le « fichier vivant » : ce que Claude sait du poste, vérifié, et qu'il tient à jour. |
 | `SAVOIR_*.md` | Les savoirs détaillés : Blender et rendu, DXF et DWG, lecture de plans, équipes d'agents, Windows. |
@@ -91,12 +92,24 @@ professionnel**. Aucun sceau n'est jamais simulé.
 ## Installation
 
 ```
-1. Installer les programmes du tableau ci-dessus (Blender, Python, ODA File Converter, Git, Claude Code).
-2. Télécharger ce dépôt (bouton « Code » puis « Download ZIP », ou git clone) dans un chemin COURT,
+1. Télécharger ce dépôt (bouton « Code » puis « Download ZIP », ou git clone) dans un chemin COURT,
    par exemple C:\Dev\3d_Plan : Blender refuse les chemins longs.
-3. Dans ce dossier :  python -m pip install -r requirements.txt
+2. Double-cliquer Installer.bat
+3. Installer ODA File Converter (l'installateur ouvre sa page : sa licence s'accepte sur son site).
 4. Double-cliquer Demarrer-Blender.bat
 ```
+
+**`Installer.bat`** fait l'inventaire du poste, pose **une seule question**, puis installe ce qui manque
+par winget : Python 3.13 et ses paquets, Blender, Git pour Windows, Node.js et Claude Code. Il termine par
+le diagnostic du lanceur. Si rien ne manque, il ne pose aucune question.
+
+- `Installer.bat /essai` dit ce qui serait installé, **sans rien installer**.
+- Python et Claude Code s'installent pour votre compte, sans droits d'administrateur. Blender, Git et
+  Node.js s'installent pour toute la machine : Windows affiche une invite, que vous pouvez refuser.
+- Il n'installe ni ODA File Converter, ni votre abonnement Claude, ni votre clé Google : voir plus bas.
+- ⚠️ **Première version** : éprouvée en simulation (programmes comptés comme absents), pas encore sur un
+  poste vierge. Si une étape échoue, le message dit laquelle ; tout s'installe aussi à la main, à partir
+  du tableau du haut, puis `python -m pip install -r requirements.txt`.
 
 Diagnostic seul, sans lancer Claude : `Demarrer-Blender.bat /verifier`. Il dit, outil par outil, ce qui
 est trouvé et ce qui manque.
