@@ -1,0 +1,50 @@
+{
+ "projet": "EXEMPLE FICTIF — maison neuve (zone C), sous-sol fini et garage attaché chauffé",
+ "categorie": "residentiel_neuf",
+ "gamme": "economique",
+ "etages": [
+  {
+   "nom": "Rez-de-chaussée de la maison (aire brute)",
+   "aire": "1200",
+   "poids": "1.00"
+  },
+  {
+   "nom": "Garage attaché CHAUFFÉ, tarif habitable (aire brute)",
+   "aire": "300",
+   "poids": "1.00"
+  },
+  {
+   "nom": "Sous-sol FINI, compté comme habitable (aire brute)",
+   "aire": "1200",
+   "poids": "1.00"
+  }
+ ],
+ "garage_froid_pi2": "0",
+ "toit_plat_pi2": "0",
+ "facteurs": [
+  {
+   "nom": "Région : exemple à 0,95 — à VÉRIFIER sur Québec.ca pour chaque projet, jamais de mémoire",
+   "valeur": "0.95"
+  },
+  {
+   "nom": "Saison : 1,00, à confirmer",
+   "valeur": "1.00"
+  },
+  {
+   "nom": "Complexité : plusieurs décrochés (+10 %)",
+   "valeur": "1.10"
+  }
+ ],
+ "demolition_pi2": "0",
+ "provisions": {
+  "nom": "Provision : services du terrain (sans réseaux municipaux)",
+  "note": "provision au coût, hors facteurs de région et de complexité ; exemple : TOTAL seulement",
+  "postes": [
+   {
+    "nom": "Services du terrain : fosse septique et champ d'épuration, puits et pompe (total de la provision)",
+    "montant": "30000.00"
+   }
+  ]
+ },
+ "controle_ttc": "854547.55"
+}

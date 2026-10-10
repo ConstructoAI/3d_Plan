@@ -1,0 +1,28 @@
+Render
+Copyright 2026 Sylvain Leduc — Constructo AI inc.
+
+Une gracieuseté de Sylvain Leduc, président de Constructo AI inc.
+Écosystème intelligent pour la construction au Québec — https://www.constructoai.ca
+
+Ce logiciel est distribué sous la licence Apache, version 2.0 (voir le fichier LICENSE).
+
+Ce dépôt pilote des programmes tiers qu'il ne contient PAS et ne redistribue PAS. Chacun
+garde sa propre licence :
+  - Blender (Blender Foundation, GNU GPL) ;
+  - ODA File Converter (Open Design Alliance) ;
+  - Claude Code et les modèles Claude (Anthropic) ;
+  - l'API Gemini (Google) ;
+  - Python et ses paquets (ezdxf, PyMuPDF, Pillow, numpy, scipy, reportlab, ...) ;
+  - Node.js, Git pour Windows, GitHub CLI, PostgreSQL, FreeCAD.
+
+Les extraits de l'ERP Constructo AI (Rendu3D_ERP\ERP_REACT\ et modeles\pdf_3d\erp\) sont
+publiés par leur auteur sous la même licence.
+
+Les noms Blender, AutoCAD, DWG, Claude et Gemini sont des marques de leurs détenteurs
+respectifs. Ce projet n'est affilié à aucun d'eux.
+
+Les profils de métier (*_profil.txt) sont des invites : ni Claude ni ce dépôt ne détiennent
+de titre professionnel ni de licence.
+
+Les dessins, quantités et prix produits avec ce logiciel sont préparés par une IA : ils
+doivent être validés, et au besoin scellés, par un professionnel habilité.

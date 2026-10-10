@@ -1,0 +1,21 @@
+# Paquets Python du poste - versions eprouvees sur le poste d'origine (Python 3.13).
+#   python -m pip install -r requirements.txt
+# Le Python de Blender n'en a pas besoin : Blender extrait la geometrie en JSON,
+# et c'est ce Python-ci qui ecrit les DXF, les DWG (par ODA File Converter) et les PDF.
+ezdxf==1.4.4
+PyMuPDF==1.26.4
+pillow==12.3.0
+numpy==2.1.3
+scipy==1.14.1
+matplotlib==3.10.1
+shapely==2.1.2
+reportlab==4.2.5
+openpyxl==3.1.5
+pypdf==6.0.0
+fonttools==4.57.0
+httpx==0.28.1
+requests==2.32.3
+pytest==8.4.2
+# pour les essais hors ligne de Rendu3D_ERP (le module charge par l'outil de photo les importe)
+fastapi==0.115.6
+pydantic==2.13.4

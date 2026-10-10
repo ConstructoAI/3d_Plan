@@ -1,0 +1,6 @@
+{
+  "name": "pdf-3d-poste-blender",
+  "private": true,
+  "type": "module",
+  "description": "Outil PDF 3D du poste Blender : aucune dependance, aucun npm install. Ce fichier ne sert qu'a dire a Node que les .ts et .mjs de ce dossier sont des modules ES."
+}

@@ -1,0 +1,68 @@
+# =============================================================================
+# Render - ce que git ne doit JAMAIS suivre
+# =============================================================================
+
+# --- Secrets : aucune cle dans ce depot --------------------------------------
+.env
+.env.*
+!.env.example
+*.credentials.json
+.credentials.json
+credentials.json
+token.json
+settings.local.json
+.mcp.json
+*.pem
+*.key
+*.pfx
+
+# --- Configuration et connexion de Claude rangees dans le dossier ------------
+/outils/claude/
+
+# --- Programmes tiers en copie portable (plusieurs Go, licences propres) ------
+/outils/python/
+/outils/blender/*
+!/outils/blender/_verification/
+/outils/oda/
+/outils/node/
+/outils/git/
+/outils/gh/
+/outils/postgresql/
+
+# --- Donnees locales, projets et livrables : jamais dans ce depot ------------
+/Metre/
+/Soumission_*/
+/Bloc Autocad/
+pgdata/
+*.log
+/outils/projet_en_cours.txt
+/outils/manifeste_copie.json
+/outils/sauvegardes/
+/outils/diagnostic/resultats_*
+/outils/diagnostic/inventaire_imports.json
+CLAUDE_avant_*
+*.blend
+*.blend1
+*.dwg
+*.dxf
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.zip
+*.xlsx
+*.eml
+
+# --- Python, Node, caches ----------------------------------------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+
+# --- Temoins de construction et sauvegardes ----------------------------------
+.construction.json
+*.bak
+*.tmp
+*~
+Thumbs.db
+Desktop.ini
